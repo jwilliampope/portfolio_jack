@@ -23,3 +23,6 @@ menu_item.forEach(item => {
     mobile_menu.classList.toggle("active")
   })
 })
+
+let date = new Date().getFullYear()
+document.getElementById("year").innerHTML = date
